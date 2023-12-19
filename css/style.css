@@ -1,0 +1,13 @@
+*,
+*::before,
+*::after{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#app{
+    text-align: center;
+    color: crimson;
+    font-size: larger;
+}
