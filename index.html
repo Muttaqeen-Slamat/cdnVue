@@ -8,7 +8,22 @@
 </head>
 <body>
     
-    <div id="app">{{ firstName }}</div>
+    <div id="app">
+        <p>
+            {{ firstName.toUpperCase() }}
+        </p>
+        <p>
+            {{ greetings.replace('l','').toLowerCase() }}
+            <!-- {{ Array.from(new Set(greeting.slice(''))).join('').toLowerCase() }} -->
+        </p>
+        <p>
+            {{ currYear.getFullYear() }}
+        </p> 
+        <p>
+            {{ yourInput }}
+        </p>
+
+    </div>
 
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="script/code.js"></script>
